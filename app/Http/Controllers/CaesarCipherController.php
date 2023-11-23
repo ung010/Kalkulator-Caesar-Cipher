@@ -49,8 +49,6 @@ class CaesarCipherController extends Controller
         return view('caesar-cipher.result', compact('text', 'result', 'shift'));
     }
 
-
-
     private function caesarCipher($text, $shift, $action)
     {
         $result = '';
